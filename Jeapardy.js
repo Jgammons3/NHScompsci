@@ -1,5 +1,6 @@
+var points = 0;
 
-var points = ["100","200","300"];
+
 
 
 
@@ -25,22 +26,23 @@ onEvent("button6", "click", function( ) {
 });
 onEvent("button7", "click", function( ) {
   setScreen("screen8");
-});
+}); 
 
 
-onEvent("button15", "click", function( ) {
-setNumber("text_area7", + "100");
-setScreen("screen2");
-}),
-onEvent("button18", "click", function() {
-setNumber("text_area7") + "200" ;
-setScreen("screen2");
-var x;
+onEvent("button100(1)", "click", function( ) {
+points = points + 100;
+setText("text_area7", points);
+
 
 
 
   
 });
+
+
+
+
+
 
 
 
