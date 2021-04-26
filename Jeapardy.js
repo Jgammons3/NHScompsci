@@ -30,14 +30,71 @@ onEvent("button7", "click", function( ) {
 
 
 onEvent("button100(1)", "click", function( ) {
+  setScreen("screen2");
 points = points + 100;
 setText("text_area7", points);
-
-
-
-
-  
 });
+
+onEvent("button8","click", function( ) {
+  setScreen("screen2");
+points = points - 100;
+setText("text_area7", points);
+
+});
+
+onEvent("button16","click", function( ) {
+  setScreen("screen2");
+points = points - 100;
+setText("text_area7", points);
+
+});
+onEvent("button200(1)", "click", function( ) {
+  setScreen("screen2");
+points = points + 200;
+setText("text_area7", points);
+});
+onEvent("button19","click", function( ) {
+  setScreen("screen2");
+points = points - 200;
+setText("text_area7", points);
+
+});
+onEvent("button17","click", function( ) {
+  setScreen("screen2");
+points = points - 200;
+setText("text_area7", points);
+
+});
+onEvent("button19","click", function( ) {
+  setScreen("screen2");
+points = points - 200;
+setText("text_area7", points);
+
+});
+onEvent("button300(1)", "click", function( ) {
+  setScreen("screen2");
+points = points + 300;
+setText("text_area7", points);
+});
+onEvent("button10","click", function( ) {
+  setScreen("screen2");
+points = points - 300;
+setText("text_area7", points);
+
+});
+onEvent("button15","click", function( ) {
+  setScreen("screen2");
+points = points - 300;
+setText("text_area7", points);
+
+});
+onEvent("button18","click", function( ) {
+  setScreen("screen2");
+points = points - 300;
+setText("text_area7", points);
+
+});
+
 
 
 
