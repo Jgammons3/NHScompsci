@@ -292,6 +292,32 @@ onEvent("screen13", "click", function( ) {
 
 
 
+project 2 below
+
+function setup() {
+  createCanvas(600,600);
+
+  
+
+}
+
+function draw() {
+  background(220,0,50)
+  ellipse(150,150,150,150);
+  fill(0);
+  
+  rect(30,20,55,55)
+  fill(500)
+  
+
+
+
+
+
+
+
+
+
 
 
 
